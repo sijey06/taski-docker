@@ -1,5 +1,3 @@
-# Версия docker-compose
-
 volumes:
   pg_data:
   static:

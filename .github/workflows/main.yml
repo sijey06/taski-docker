@@ -180,7 +180,7 @@ jobs:
         passphrase: ${{ secrets.SSH_PASSPHRASE }}
         # Параметр script передаёт в action appleboy/ssh-action команды,
         # которые нужно выполнить на сервере, 
-        # с которым установлено соединение 
+        # с которым установлено соединение
         script: |
           cd taski
           # Выполняет pull образов с Docker Hub
